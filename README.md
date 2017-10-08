@@ -3,7 +3,7 @@ AZGradientView is a subClass of UIView for using gradient views in Storyboard
 we have two class , the first one  is `AZHorizontalGradientView` and second one is `AZVerticalGradientView`
 
 <div align="center">
- <img src="http://aliazadeh.me/AZGradientView/Screenshot.png" width="300" height = "auto" margin = "auto" />
+ <img src="http://aliazadeh.me/AZGradientView/new_Screenshot.png" width="300" height = "auto" margin = "auto" />
 </div>
 
 ## AZHorizontalGradientView 
