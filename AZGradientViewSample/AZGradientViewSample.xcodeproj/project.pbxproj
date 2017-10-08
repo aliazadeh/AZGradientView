@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181D76661F89FE3D009AE49F /* AZRadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D76651F89FE3D009AE49F /* AZRadialGradientView.swift */; };
 		18FEDDAC1F540CB000AFC0B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDDAB1F540CB000AFC0B3 /* AppDelegate.swift */; };
 		18FEDDAE1F540CB000AFC0B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDDAD1F540CB000AFC0B3 /* ViewController.swift */; };
 		18FEDDB11F540CB000AFC0B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FEDDAF1F540CB000AFC0B3 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181D76651F89FE3D009AE49F /* AZRadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZRadialGradientView.swift; sourceTree = "<group>"; };
 		18FEDDA81F540CB000AFC0B3 /* AZGradientViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZGradientViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FEDDAB1F540CB000AFC0B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FEDDAD1F540CB000AFC0B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				18FEDDBE1F540CE700AFC0B3 /* AZGradientView.swift */,
 				18FEDDC21F540D3200AFC0B3 /* AZVerticalGradientView.swift */,
 				18FEDDC01F540D1300AFC0B3 /* AZHorizontalGradientView.swift */,
+				181D76651F89FE3D009AE49F /* AZRadialGradientView.swift */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				18FEDDAE1F540CB000AFC0B3 /* ViewController.swift in Sources */,
 				18FEDDBF1F540CE700AFC0B3 /* AZGradientView.swift in Sources */,
 				18FEDDAC1F540CB000AFC0B3 /* AppDelegate.swift in Sources */,
+				181D76661F89FE3D009AE49F /* AZRadialGradientView.swift in Sources */,
 				18FEDDC11F540D1300AFC0B3 /* AZHorizontalGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +325,7 @@
 				18FEDDBC1F540CB000AFC0B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
