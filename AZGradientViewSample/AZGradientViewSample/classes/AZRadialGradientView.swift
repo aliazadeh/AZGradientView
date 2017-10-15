@@ -18,7 +18,12 @@ class AZRadialGradientView: AZGradientView {
         let colors = [internalColor.cgColor, externalColor.cgColor] as CFArray
         let endRadius = max(frame.width, frame.height) / 2
         let center = CGPoint(x: bounds.size.width / 2, y: bounds.size.height / 2)
-        let gradient = CGGradient(colorsSpace: nil, colors: colors, locations: nil)
-        UIGraphicsGetCurrentContext()!.drawRadialGradient(gradient!, startCenter: center, startRadius: 0.0, endCenter: center, endRadius: endRadius, options: CGGradientDrawingOptions.drawsBeforeStartLocation)
+        guard
+            let gradient = CGGradient(colorsSpace: nil, colors: colors, locations: nil),
+            let graphicsGetCurrentContext = UIGraphicsGetCurrentContext()
+            else {
+                return
+        }
+        graphicsGetCurrentContext.drawRadialGradient(gradient, startCenter: center, startRadius: 0.0, endCenter: center, endRadius: endRadius, options: CGGradientDrawingOptions.drawsBeforeStartLocation)
     }
 }
